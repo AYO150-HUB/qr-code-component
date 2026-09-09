@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.barcode{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.title{
+    color:hsl(218, 44%, 22%);
+    text-align: center;
+    font-size: 22px;
+    font-weight:  bold;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.description{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight:  regular;
+}
